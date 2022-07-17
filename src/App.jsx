@@ -31,7 +31,7 @@ function App() {
 function Navbar() {
   // visible on every page
   const location = useLocation(); 
-  if (location.pathname === "/sign-in" || location.pathname === "/sign-up") {
+  if (location.pathname === "/sign-in" || location.pathname === "/sign-up" || location.pathname === "/forgot-password") {
     return (
       <nav className="navbar navbar-expand-lg navbar-light fixed-top mb-3">
         <div className="container">
